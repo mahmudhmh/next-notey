@@ -2,7 +2,7 @@
 
 The Notes App is a user-friendly tool that helps you organize your thoughts and tasks effortlessly. It's built with the latest technologies like Next.js 13 and TypeScript for the frontend, and Pocketbase for the backend, ensuring a smooth and secure experience.
 
-With its simple design and powerful features, including ReactJS, Tailwind CSS, and Next Router, navigating through your notes is easy and intuitive. Plus, it uses advanced techniques like SQLite for data storage and retrieval, making sure you can access your notes quickly and reliably.
+With its simple design and powerful features, including ReactJS, and Next Router, navigating through your notes is easy and intuitive. Plus, it uses advanced techniques like SQLite for data storage and retrieval, making sure you can access your notes quickly and reliably.
 
 Overall, the Notes App is a modern solution that simplifies the way you manage your ideas and tasks, giving you more time to focus on what matters most.
 
