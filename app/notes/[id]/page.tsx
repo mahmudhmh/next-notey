@@ -1,3 +1,4 @@
+"use client";
 import styles from "../Notes.module.css";
 
 async function getNote(noteId: string) {

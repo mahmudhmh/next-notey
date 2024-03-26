@@ -32,7 +32,7 @@ function Note({ note }: any) {
 
   return (
     // <Link href={`/notes/${id}`}> --> has an error in getting the id of the note right
-    <Link href={`/notes/`}>
+    <Link href={`/notes/${id}`}>
       <div className={styles.note}>
         <h2>{title}</h2>
         <h5>{content}</h5>
