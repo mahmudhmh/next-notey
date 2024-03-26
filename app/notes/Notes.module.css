@@ -1,0 +1,91 @@
+.pageTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.grid {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.action {
+  text-align: left;
+  color: dodgerblue;
+}
+
+.note {
+  height: auto;
+  width: 200px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #ae8fde;
+  border: 2px solid #7d60aa;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px #ae8fde;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.content {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #001734;
+}
+
+.created {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #001734;
+}
+
+.action {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #ae8fde;
+}
+
+.formContainer {
+  max-width: 400px;
+}
+
+.formContainer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.formContainer input[type="text"],
+.formContainer textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formContainer textarea {
+  height: 200px;
+}
+
+.formContainer button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #ae8fde;
+  color: #fff;
+  border: 1px solid #7d60aa;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formContainer button[type="submit"]:hover {
+  background-color: #7d60aa;
+  border: 1px solid #ae8fde;
+}
