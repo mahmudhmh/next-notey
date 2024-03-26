@@ -1,40 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS Note App
+
+This is a simple Notes App built using Next.js 13 and TypeScript for the frontend, and Pocketbase for the backend.
+
+## Features
+
+- **Create Notes**: Users can create new notes, providing a title and content.
+- **View Notes**: Users can view their saved notes.
+- **Responsive Design**: The app is designed to work seamlessly across various devices.
+
+## Technologies Used
+
+- **Next.js 13**: A React framework for building server-rendered applications.
+- **TypeScript**: A statically typed superset of JavaScript that enhances code quality and developer productivity.
+- **Pocketbase**: A backend service for storing and managing data, providing a scalable and reliable solution.
+- **React**: A JavaScript library for building user interfaces.
+- **ESLint & Prettier**: For code linting and formatting to maintain code quality and consistency.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository**:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+git clone https://github.com/mahmudhmh/next-notey
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+2. **Install dependencies**:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+cd next-notey
+npm install
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Run the app**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npm run dev
 
-## Deploy on Vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Access the app**:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Visit `http://localhost:3000` in your browser.
+
+## Backend Setup
+
+The backend for this app is powered by Pocketbase. Follow the Pocketbase documentation to set up your backend and configure the necessary APIs for user authentication and CRUD operations on notes.
+
+[PocketBase Doc](https://pocketbase.io/docs/)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+In this README file, I assumed a basic understanding of Next.js, TypeScript, and Pocketbase. You might need to customize certain sections based on your specific implementation details.
