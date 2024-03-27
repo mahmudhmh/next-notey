@@ -9,7 +9,9 @@ Overall, the Notes App is a modern solution that simplifies the way you manage y
 ## Features
 
 - **Create Notes**: Users can create new notes, providing a title and content.
+  ![NoteyAppSS](https://github.com/mahmudhmh/next-notey/assets/54104161/964132f1-00f7-4a8b-9a9a-5b6744761855)
 - **View Notes**: Users can view their saved notes.
+  ![viewNoteySS](https://github.com/mahmudhmh/next-notey/assets/54104161/390a7547-8054-4e5c-bfc8-8397a210f9a5)
 - **Responsive Design**: The app is designed to work seamlessly across various devices.
 
 ## Technologies Used
